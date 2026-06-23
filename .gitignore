@@ -1,0 +1,70 @@
+# Project specific
+docs/archive/
+archive/
+
+# Claude
+.claude/
+
+# Node
+node_modules/
+.next/
+.turbo/
+dist/
+build/
+out/
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+tmp/
+temp/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Deploy
+.vercel/
+
+# Terraform
+.terraform/
+*.tfstate*
+
+# AI tooling
+.cursor/
+.continue/
+
+# Secrets
+*.pem
+*.key
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
